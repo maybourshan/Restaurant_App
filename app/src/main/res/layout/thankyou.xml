@@ -1,0 +1,58 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top|center_horizontal"
+    android:padding="16dp"
+    android:background="@drawable/backmainpage">
+
+    <!-- TextView for displaying a thank you message -->
+    <TextView
+        android:id="@+id/tvThankYouMessage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/thank_you_message"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/dancingfont" />
+
+    <!-- ImageView for displaying a checkmark, likely as a part of the completion status -->
+    <ImageView
+        android:id="@+id/checkmarkImage"
+        android:layout_width="400dp"
+        android:layout_height="235dp"
+        android:layout_marginTop="12dp"
+        android:contentDescription="@string/checkmark_description"
+        android:src="@drawable/checkmark_animation" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp">
+
+        <!-- Back button to return to the previous screen or close the current view -->
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back_button3"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/dancingfont"
+            android:backgroundTint="@android:color/black" />
+    </LinearLayout>
+</LinearLayout>
+

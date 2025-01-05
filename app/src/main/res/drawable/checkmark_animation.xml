@@ -1,0 +1,7 @@
+<!-- res/drawable/checkmark_animation.xml -->
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/checkmark">
+    <target
+        android:name="checkmark_path"
+        android:animation="@animator/checkmark_path_animator" />
+</animated-vector>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="@drawable/backmainpage"
+    tools:context=".MainActivity">
+
+    <!-- Header TextView displaying a header text at the top of the screen -->
+    <TextView
+        android:id="@+id/textViewHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:padding="16dp"
+        android:text="@string/text_view_header"
+        android:fontFamily="@font/dancingfont"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Main Title TextView centered in the layout for "Amore Mio" -->
+    <TextView
+        android:id="@+id/textViewAmoreMio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_view_amore_mio"
+        android:textColor="#FFFFFF"
+        android:textSize="75sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/dancingfont"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.218" />
+
+    <!-- Reservation Button aligned to the left side of the layout -->
+    <Button
+        android:id="@+id/buttonReservation"
+        android:layout_width="139dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="432dp"
+        android:backgroundTint="#000000"
+        android:text="@string/button_reservation"
+        android:textSize="20sp"
+        android:fontFamily="@font/dancingfont"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewAmoreMio" />
+
+    <!-- Menu Button aligned to the right side of the Reservation Button -->
+    <Button
+        android:id="@+id/buttonMenu"
+        android:layout_width="137dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="432dp"
+        android:backgroundTint="#000000"
+        android:text="@string/button_menu"
+        android:textSize="20sp"
+        android:fontFamily="@font/dancingfont"
+        app:layout_constraintStart_toEndOf="@id/buttonReservation"
+        app:layout_constraintTop_toBottomOf="@id/textViewAmoreMio" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

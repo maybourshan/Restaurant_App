@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Root layout using LinearLayout, centered vertically -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#000000"> <!-- Black background for contrast -->
+
+    <!-- ImageView for displaying a loading image -->
+    <ImageView
+        android:id="@+id/imageViewmay"
+        android:layout_width="156dp"
+        android:layout_height="94dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/splash_image_desc"
+        android:src="@drawable/loading" /> <!-- Reference to a drawable resource -->
+
+    <!-- TextView for loading text below the image -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loading_text"
+        android:layout_marginTop="50dp"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

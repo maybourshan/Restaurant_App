@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">אמורה מיו</string>
+    <string name="text_view_header">הבית של אוכל איטלקי</string>
+    <string name="text_view_amore_mio">אמורה מיו</string>
+    <string name="button_reservation">הזמנה</string>
+    <string name="button_menu">תפריט</string>
+    <string name="btn_back">חזור</string>
+    <string name="menu_title">תפריט</string>
+    <string name="caprese_salad">סלט קפרזה</string>
+    <string name="caprese_price">מחיר: 15$</string>
+    <string name="caprese_info">מוצרלה טרייה, עגבניות,\n בזיליקום וציפוי בלסמי.</string>
+    <string name="bolognese">בולונז</string>
+    <string name="bolognese_price">מחיר: 22$</string>
+    <string name="bolognese_info">קלאסיקה איטלקית הכוללת בקר וטחון בבישול איטי ברוטב עגבניות.</string>
+    <string name="pasta_pesto">פסטה פסטו</string>
+    <string name="pasta_pesto_price">מחיר: 24$</string>
+    <string name="pasta_pesto_info">פסטה טעימה ברוטב פסטו עשיר עם אגוזי אורן, שום ופרמזן.</string>
+    <string name="coca_cola">קוקה קולה</string>
+    <string name="coca_cola_price">מחיר: 4$</string>
+    <string name="sprite">ספירייט</string>
+    <string name="sprite_price">מחיר: 3.5$</string>
+    <string name="grape_juice">מיץ ענבים</string>
+    <string name="grape_juice_price">מחיר: 5$</string>
+    <string name="btn_back1">חזור</string>
+    <string name="title_reservation">הזמנה</string>
+    <string name="hint_first_name">שם פרטי</string>
+    <string name="hint_last_name">שם משפחה</string>
+    <string name="label_seats">מספר מקומות להזמנה:</string>
+    <string name="label_date">תאריך:</string>
+    <string name="label_time">זמן:</string>
+    <string name="slash">/</string>
+    <string name="colon">:</string>
+    <string name="label_payment_method">שיטת תשלום:</string>
+    <string name="bit">ביט</string>
+    <string name="cash">מזומן</string>
+    <string name="credit">כרטיס אשראי</string>
+    <string name="label_vegan">טבעוני:</string>
+    <string name="yes">כן</string>
+    <string name="no">לא</string>
+    <string name="btn_reserve_seats">הזמנת מקומות</string>
+
+    <string name="tv_first_name">שם פרטי: %s</string>
+    <string name="tv_last_name">שם משפחה: %s</string>
+    <string name="tv_date">תאריך: %s</string>
+    <string name="tv_time">שעה: %s</string>
+    <string name="tv_payment_method">אמצעי תשלום: %s</string>
+    <string name="tv_seats_reserved">מספר מקומות: %s</string>
+    <string name="tv_vegan_option">אפשרות לטבעוני: %s</string>
+    <string name="btn_confirm">אישור</string>
+    <string name="btn_back2">חזרה</string>
+    <string name="default_value">N/A</string>
+
+    <string name="splash_image_desc">תמונת פתיחה</string>
+    <string name="loading_text">טוען...</string>
+
+    <string name="thank_you_message">תודה על ההזמנה שלך</string>
+    <string name="checkmark_description">אנימציית סימון</string>
+    <string name="back_button3">חזור</string>
+</resources>

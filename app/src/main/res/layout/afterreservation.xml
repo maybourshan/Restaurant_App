@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/back">
+
+    <!-- ScrollView to allow vertical scrolling of the layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Inner LinearLayout containing all the information and buttons -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/black_border"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:padding="20dp">
+
+            <!-- Displays the first name entered -->
+            <TextView
+                android:id="@+id/tvFirstName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_first_name"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:fontFamily="@font/dancingfont" />
+
+            <!-- Displays the last name entered -->
+            <TextView
+                android:id="@+id/tvLastName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_last_name"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:fontFamily="@font/dancingfont" />
+
+            <!-- Displays the reservation date -->
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_date"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:fontFamily="@font/dancingfont" />
+
+            <!-- Displays the reservation time -->
+            <TextView
+                android:id="@+id/tvTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_time"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:fontFamily="@font/dancingfont" />
+
+            <!-- Displays the payment method chosen -->
+            <TextView
+                android:id="@+id/tvPaymentMethod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_payment_method"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:fontFamily="@font/dancingfont" />
+
+            <!-- Displays the number of seats reserved -->
+            <TextView
+                android:id="@+id/tvSeats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_seats_reserved"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:fontFamily="@font/dancingfont" />
+
+            <!-- Displays if the reservation is vegan-friendly -->
+            <TextView
+                android:id="@+id/tvVegan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_vegan_option"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:fontFamily="@font/dancingfont" />
+
+            <!-- Confirmation button -->
+            <Button
+                android:id="@+id/btnConfirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_confirm"
+                android:textSize="20sp"
+                android:backgroundTint="#4CAF50"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/dancingfont"
+                android:layout_marginTop="16dp" />
+
+            <!-- Back button to return to the previous page -->
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_back2"
+                android:textSize="20sp"
+                android:backgroundTint="#F44336"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/dancingfont"
+                android:layout_marginTop="8dp" />
+
+            <!-- An arrow image to indicate direction or focus -->
+            <ImageView
+                android:id="@+id/imageViewArrow"
+                android:layout_width="28dp"
+                android:layout_height="32dp"
+                android:layout_gravity="start"
+                android:layout_marginTop="-100dp"
+                android:layout_marginEnd="150dp"
+                android:src="@drawable/arrow" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

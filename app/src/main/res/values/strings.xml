@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">Amore Mio</string>
+    <string name="text_view_header">The home of Italian food</string>
+    <string name="text_view_amore_mio">Amore Mio</string>
+    <string name="button_reservation">Reservation</string>
+    <string name="button_menu">Menu</string>
+    <string name="btn_back">Back</string>
+    <string name="menu_title">Menu</string>
+    <string name="caprese_salad">Caprese Salad</string>
+    <string name="caprese_price">Price: $15</string>
+    <string name="caprese_info">Fresh mozzarella, tomatoes, basil,\n and balsamic glaze.</string>
+    <string name="bolognese">Bolognese</string>
+    <string name="bolognese_price">Price: $22</string>
+    <string name="bolognese_info">A robust Italian classic featuring slow-simmered ground beef and pork in a rich tomato and vegetable.</string>
+    <string name="pasta_pesto">Pasta Pesto</string>
+    <string name="pasta_pesto_price">Price: $24</string>
+    <string name="pasta_pesto_info">Delicious pasta tossed in a rich basil pesto sauce with pine nuts, garlic, and Parmesan cheese.</string>
+    <string name="coca_cola">Coca Cola</string>
+    <string name="coca_cola_price">Price: $4</string>
+    <string name="sprite">Sprite</string>
+    <string name="sprite_price">Price: $3.5</string>
+    <string name="grape_juice">Grape Juice</string>
+    <string name="grape_juice_price">Price: $5</string>
+    <string name="btn_back1">Back</string>
+    <string name="title_reservation">Reservation</string>
+    <string name="hint_first_name">Private Name</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="label_seats">Amount of Seats to Reserve:</string>
+    <string name="label_date">Date:</string>
+    <string name="label_time">Time:</string>
+    <string name="slash">/</string>
+    <string name="colon">:</string>
+    <string name="label_payment_method">Payment Method:</string>
+    <string name="bit">Bit</string>
+    <string name="cash">Cash</string>
+    <string name="credit">Credit</string>
+    <string name="label_vegan">Vegan:</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="btn_reserve_seats">Reserve Seats</string>
+
+    <string name="tv_first_name">First Name: %s</string>
+    <string name="tv_last_name">Last Name: %s</string>
+    <string name="tv_date">Date: %s</string>
+    <string name="tv_time">Time: %s</string>
+    <string name="tv_payment_method">Payment Method: %s</string>
+    <string name="tv_seats_reserved">Seats Reserved: %s</string>
+    <string name="tv_vegan_option">Vegan Option: %s</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="btn_back2">Back</string>
+    <string name="default_value">N/A</string>
+
+    <string name="splash_image_desc">Splash Image</string>
+    <string name="loading_text">Loading...</string>
+
+    <string name="thank_you_message">Thank you for your reservation</string>
+    <string name="checkmark_description">Checkmark Animation</string>
+    <string name="back_button3">Back</string>
+
+
+    <string-array name="number_of_seats_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="months_array">
+        <item>MM</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <!-- Days array -->
+    <string-array name="days_array">
+        <item>DD</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="hours_array">
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+    </string-array>
+
+    <string-array name="minutes_array">
+        <item>00</item>
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+    </string-array>
+        <string name="loading">Loading...</string>
+
+
+</resources>
